@@ -1,0 +1,31 @@
+version: 2
+
+models:
+  - name: mart_daily_volumes
+    description: "Daily Ethereum transaction volumes and gas fee metrics, ready for dashboard consumption"
+    columns:
+      - name: transaction_date
+        description: "Date of transactions"
+        tests:
+          - unique
+          - not_null
+      - name: total_transactions
+        description: "Total number of transactions that day"
+        tests:
+          - not_null
+      - name: failure_rate_pct
+        description: "Percentage of failed transactions"
+        tests:
+          - not_null
+      - name: total_eth_transferred
+        description: "Total ETH transferred that day"
+        tests:
+          - not_null
+      - name: cumulative_transactions
+        description: "Running total of all transactions"
+        tests:
+          - not_null
+      - name: cumulative_eth_transferred
+        description: "Running total of all ETH transferred"
+        tests:
+          - not_null

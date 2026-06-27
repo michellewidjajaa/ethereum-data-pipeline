@@ -1,0 +1,23 @@
+version: 2
+
+models:
+  - name: stg_eth_transactions
+    description: "Cleaned and standardised Ethereum transactions from raw data"
+    columns:
+      - name: transaction_id
+        description: "Unique transaction hash"
+        tests:
+          - unique
+          - not_null
+      - name: value_eth
+        description: "Transaction value in ETH"
+        tests:
+          - not_null
+      - name: is_successful
+        description: "Whether transaction succeeded"
+        tests:
+          - not_null
+      - name: block_timestamp
+        description: "When the transaction occurred"
+        tests:
+          - not_null

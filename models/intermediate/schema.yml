@@ -1,0 +1,19 @@
+version: 2
+
+models:
+  - name: int_daily_transactions
+    description: "Daily aggregated Ethereum transaction metrics"
+    columns:
+      - name: transaction_date
+        description: "The date of transactions"
+        tests:
+          - unique
+          - not_null
+      - name: total_transactions
+        description: "Total number of transactions that day"
+        tests:
+          - not_null
+      - name: total_eth_transferred
+        description: "Total ETH transferred that day"
+        tests:
+          - not_null

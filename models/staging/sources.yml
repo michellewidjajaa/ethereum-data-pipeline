@@ -1,0 +1,10 @@
+version: 2
+
+sources:
+  - name: raw_us
+    project: crypto-project-499715
+    dataset: raw_us
+    tables:
+      - name: eth_transactions
+        description: "Raw Ethereum transactions loaded from BigQuery public dataset. Covers Jan-Apr 2025, 2M rows."
+        
