@@ -10,7 +10,7 @@ Raw (BigQuery) → dbt Staging → dbt Intermediate → dbt Mart → Looker Stud
 [View Live Dashboard]
 https://datastudio.google.com/reporting/c734f72e-6a1e-4c81-8377-adcea9005919
 
-![Ethereum Pipeline Dashboard](dashboard.png)
+![Ethereum Pipeline Dashboard](dashboard_screenshot.png)
 
 ### Key Insights
 - 2M Ethereum transactions processed across Jan–Apr 2025
