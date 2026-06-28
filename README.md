@@ -7,7 +7,8 @@ Raw (BigQuery) → dbt Staging → dbt Intermediate → dbt Mart → Looker Stud
 
 ## Dashboard
 
-[View Live Dashboard](YOUR_LOOKER_STUDIO_LINK_HERE)
+[View Live Dashboard]
+https://datastudio.google.com/reporting/c734f72e-6a1e-4c81-8377-adcea9005919
 
 ![Ethereum Pipeline Dashboard](dashboard.png)
 
