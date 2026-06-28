@@ -5,6 +5,18 @@ End-to-end data engineering pipeline processing 2M Ethereum transactions using d
 ## Architecture
 Raw (BigQuery) → dbt Staging → dbt Intermediate → dbt Mart → Looker Studio
 
+## Dashboard
+
+[View Live Dashboard](YOUR_LOOKER_STUDIO_LINK_HERE)
+
+![Ethereum Pipeline Dashboard](dashboard.png)
+
+### Key Insights
+- 2M Ethereum transactions processed across Jan–Apr 2025
+- 3,018,980 ETH transferred in total (~$7.5B USD at 2025 prices)
+- Average failure rate of 2.23% across the period
+- Gas prices dropped 90% from January peak (~35 Gwei) to April (~2 Gwei)
+
 ## Stack
 - **Warehouse**: Google BigQuery
 - **Transformation**: dbt
